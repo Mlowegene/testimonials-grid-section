@@ -125,10 +125,53 @@ body {
     color: hsl(0, 0%, 81%);
 }
 
+/*=============================card 3=====================*/
 
 #card3{
     background-color: hsl(0, 0%, 100%);
+    width: 20rem;
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: .5rem;
+    color: hsl(219, 29%, 14%);
 }
+
+.img-name-3 {
+    display: flex;
+    align-items: center;
+}
+
+.img-name-3 img {
+    width: 25px;
+    border-radius: 50%;
+    border: 1px solid #fff;   
+}
+
+.img-name-3 p {
+    margin: 1rem;
+    font-weight: 100;
+}
+
+.img-name-3 p span {
+    display: block;
+    font-weight: 200;
+    font-size: 1.1rem;
+    color: hsl(217, 19%, 35%);
+}
+
+.desc-3 {
+    text-align: left;
+}
+
+.desc-3 h4 {
+    margin-bottom: 1rem;
+}
+
+.desc-3 p {
+    font-size: 1rem;
+    color: hsl(217, 19%, 35%);
+}
+
 #card4{
     background-color: hsl(219, 29%, 14%);
 }
