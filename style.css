@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.colors {
+    color: hsl(263, 55%, 52%);
+    color: hsl(217, 19%, 35%);
+    color: hsl(219, 29%, 14%);
+    color: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 81%);
+    color: hsl(210, 46%, 95%);
+}
+
+body {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 1.3rem;
+    background-color: hsl(210, 46%, 95%);
+
+}
+
+/*================card 1=========================== */
+
+#para1{
+    background-color: hsl(263, 55%, 52%);
+    background-image: url(/images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: 80% 5%;
+    background-size: 90px;
+    width: 40rem;
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: .5rem;
+    color: hsl(0, 0%, 100%);
+}
+
+.img-name {
+    display: flex;
+    align-items: center;
+}
+
+.img-name img {
+    width: 25px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    
+}
+
+.img-name p {
+    margin: 1rem;
+    font-weight: 500;
+}
+
+.img-name p span {
+    display: block;
+    font-weight: 100;
+    font-size: 1.1rem;
+    color: hsl(0, 0%, 81%);
+}
+
+.desc1 {
+    text-align: left;
+}
+
+.desc1 h4 {
+    margin-bottom: 1rem;
+}
+
+.desc1 p {
+    font-size: 1rem;
+    color: hsl(0, 0%, 81%);
+}
+
+
+#para2{
+    background-color: hsl(217, 19%, 35%);
+}
+#para3{
+    background-color: hsl(0, 0%, 100%);
+}
+#para4{
+    background-color: hsl(219, 29%, 14%);
+}
+#para5{
+    background-color: hsl(0, 0%, 100%);
+}
