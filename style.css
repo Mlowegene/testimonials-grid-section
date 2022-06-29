@@ -24,6 +24,15 @@ body {
 
 }
 
+.container {
+    width: 1000px;
+    margin: 50px 250px;
+    display: grid;
+    grid-template-rows: 200px 200px;
+    grid-template-columns: repeat(4, 190px);
+    grid-gap: 20px;
+}
+
 /*================card 1=========================== */
 
 #card1{
@@ -33,10 +42,12 @@ body {
     background-position: 80% 5%;
     background-size: 90px;
     width: 40rem;
-    margin: 2rem;
+    /* margin: 2rem; */
     padding: 2rem;
     border-radius: .5rem;
     color: hsl(0, 0%, 100%);
+
+    grid-column: 1 span 2;
 }
 
 .img-name {
@@ -72,7 +83,8 @@ body {
 }
 
 .desc1 p {
-    font-size: 1rem;
+    font-size: .9rem;
+    line-height: 13px;
     color: hsl(0, 0%, 81%);
 }
 
@@ -80,11 +92,12 @@ body {
 
 #card2 {
     background-color: hsl(217, 19%, 35%);
-    width: 20rem;
-    margin: 2rem;
+    width: 19rem;
+    /* margin: 2rem; */
     padding: 2rem;
     border-radius: .5rem;
     color: hsl(0, 0%, 100%);
+    grid-column: 3 / 4;
 
 }
 
@@ -121,7 +134,8 @@ body {
 }
 
 .desc-2 p {
-    font-size: 1rem;
+    font-size: .9rem;
+    line-height: 13px;
     color: hsl(0, 0%, 81%);
 }
 
@@ -129,11 +143,12 @@ body {
 
 #card3{
     background-color: hsl(0, 0%, 100%);
-    width: 20rem;
-    margin: 2rem;
+    width: 19rem;
+    /* margin: 2rem; */
     padding: 2rem;
     border-radius: .5rem;
     color: hsl(219, 29%, 14%);
+    grid-row: 2 / 3;
 }
 
 .img-name-3 {
@@ -168,7 +183,8 @@ body {
 }
 
 .desc-3 p {
-    font-size: 1rem;
+    font-size: .9rem;
+    line-height: 13px;
     color: hsl(217, 19%, 35%);
 }
 
@@ -177,10 +193,12 @@ body {
 #card4{
     background-color: hsl(219, 29%, 14%);
     width: 40rem;
-    margin: 2rem;
+    /* margin: 2rem; */
     padding: 2rem;
     border-radius: .5rem;
     color: hsl(0, 0%, 100%);
+    grid-row: 2 / 3 ;
+    grid-column: 2 / span 2;
 }
 
 .img-name-4 {
@@ -216,7 +234,8 @@ body {
 }
 
 .desc-4 p {
-    font-size: 1rem;
+    font-size: .9rem;
+    line-height: 13px;
     color: hsl(0, 0%, 81%);
 }
 
@@ -224,11 +243,13 @@ body {
 
 #card5{
     background-color: hsl(0, 0%, 100%);
-    width: 18rem;
-    margin: 2rem;
+    width: 20rem;
+    /* margin: 2rem; */
     padding: 2rem;
     border-radius: .5rem;
     color: hsl(219, 29%, 14%);
+    grid-column: 4 / 5;
+    grid-row: 1 / -1;
 }
 
 .img-name-5 {
@@ -263,7 +284,8 @@ body {
 }
 
 .desc-5 p {
-    font-size: 1rem;
+    font-size: .9rem;
+    line-height: 13px;
     color: hsl(217, 19%, 35%);
 }
 
@@ -271,8 +293,8 @@ body {
 
 .footer {
     text-align: center;
-    
-    font-size: 3rem;
+    margin-top: 10rem;
+    font-size: 2rem;
 }
 
 .footer a {
