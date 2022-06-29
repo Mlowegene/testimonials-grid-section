@@ -62,6 +62,19 @@ body {
     font-size: 1.1rem;
     color: hsl(0, 0%, 81%);
 }
+/*---------------------disc css----------------------*/
+.desc {
+    text-align: left;
+}
+
+.desc h4 {
+    margin-bottom: 1rem;
+}
+
+.desc p {
+    font-size:1.5rem;
+    color: hsl(0, 0%, 81%);
+}
 
 /*================card 1=========================== */
 
@@ -78,19 +91,6 @@ body {
     grid-column: 1/3;
 }
 
-.desc1 {
-    text-align: left;
-}
-
-.desc1 h4 {
-    margin-bottom: 1rem;
-}
-
-.desc1 p {
-    font-size: .9rem;
-    line-height: 13px;
-    color: hsl(0, 0%, 81%);
-}
 
 /*=========================card 2 ==========================*/
 
@@ -103,17 +103,8 @@ body {
 
 }
 
-.desc-2 {
-    text-align: left;
-}
 
-.desc-2 h4 {
-    margin-bottom: 1rem;
-}
-
-.desc-2 p {
-    font-size: .9rem;
-    line-height: 13px;
+#card2 .desc p {
     color: hsl(0, 0%, 81%);
 }
 
@@ -126,17 +117,8 @@ body {
     color: hsl(219, 29%, 14%);
     grid-row: 2 / 3;
 }
-.desc-3 {
-    text-align: left;
-}
 
-.desc-3 h4 {
-    margin-bottom: 1rem;
-}
-
-.desc-3 p {
-    font-size: .9rem;
-    line-height: 13px;
+#card3 .desc p {
     color: hsl(217, 19%, 35%);
 }
 
@@ -151,17 +133,7 @@ body {
     grid-column: 2 / span 2;
 }
 
-.desc-4 {
-    text-align: left;
-}
-
-.desc-4 h4 {
-    margin-bottom: 1rem;
-}
-
-.desc-4 p {
-    font-size: .9rem;
-    line-height: 13px;
+#card4 .desc p {
     color: hsl(0, 0%, 81%);
 }
 
@@ -175,18 +147,7 @@ body {
     grid-column: 4 / -1;
     grid-row: 1 / -1;
 }
-
-.desc-5 {
-    text-align: left;
-}
-
-.desc-5 h4 {
-    margin-bottom: 1rem;
-}
-
-.desc-5 p {
-    font-size: .9rem;
-    line-height: 13px;
+#card5 .desc p {
     color: hsl(217, 19%, 35%);
 }
 
